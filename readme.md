@@ -42,7 +42,7 @@ Our experiemnts involve following four datasets:
 
 ## JMA attack on different cases
 JMA attack is implemented in three cases: ECOC, Multi-label and one-hot scenarios.
-### ECOC case
+### Case 1: ECOC
 In ECOC case, we implement our JMA attack in three different tasks: CIFAR10, GTSRB, and MNIST.
  
 For each task, the output of the corresponding DNN model is encoded by Hadamard code. Specifically, 16-bit hadamard code is utilised to encode the output of CIFAR10 and MNIST task, while 32-bit hadamard code is used for GTSRB task. 
@@ -88,7 +88,7 @@ python -m ECOC.mnist.JMA_MNIST -s 0.5 -i 100
 ```
 
 
-### Multi-label
+### Case 2: Multi-label
 In multi-label case, we randomly choose 200 to-bt-attached sampel from the test dataset.
 
 The chosen indices are stored in 'Dataset/voc2012/x_idfs.npy'.
@@ -110,7 +110,7 @@ python -m MultiLabel.JMA_VOC -l 15 -i 200 -s 0.5
 python -m MultiLabel.JMA_VOC -l 20 -i 200 -s 0.5
 ```
 
-### One-hot
+### Case 3: One-hot
 The choosen samples from test dataset is stored in 'Dataset/GTSRB/combined_200_ACCESS_sub_GTSRB_index.npy', while the corresponding
 target labels are stored in 'Dataset/GTSRB/combined_200_ACCESS_sub_GTSRB_error_pattern.npy'.
 
