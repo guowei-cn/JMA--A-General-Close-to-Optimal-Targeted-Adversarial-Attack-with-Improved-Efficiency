@@ -8,7 +8,7 @@ This is the implementation of the paper #todo{update later}:
 @misc{https://doi.org/10.48550/arxiv.2208.10973,
   doi = {10.48550/ARXIV.2208.10973},
   url = {https://arxiv.org/abs/2208.10973},
-  author = {Tondi, Benedetta and Costanzo, Andrea and Barni, Mauro},
+  author = {Tondi, Benedetta and Guo, Wei and Barni, Mauro},
   keywords = {Computer Vision and Pattern Recognition (cs.CV), Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
   title = {Robust DNN Watermarking via Fixed Embedding Weights with Optimized Distribution},
   publisher = {arXiv},
