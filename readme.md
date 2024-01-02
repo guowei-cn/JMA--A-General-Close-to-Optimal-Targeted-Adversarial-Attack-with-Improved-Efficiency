@@ -10,9 +10,9 @@ This is the implementation of the paper #todo{update later}:
   url = {https://arxiv.org/abs/2208.10973},
   author = {Tondi, Benedetta and Guo, Wei and Barni, Mauro},
   keywords = {Computer Vision and Pattern Recognition (cs.CV), Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Robust DNN Watermarking via Fixed Embedding Weights with Optimized Distribution},
+  title = {JMA: a General Algorithm to Craft Nearly Optimal Targeted Adversarial Examples},
   publisher = {arXiv},
-  year = {2022},
+  year = {2024},
 }
 ~~~
 Download PDF from [ArXiv](https://arxiv.org/abs/2208.10973). #todo{update later}
