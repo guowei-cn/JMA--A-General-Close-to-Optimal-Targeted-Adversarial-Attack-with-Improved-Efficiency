@@ -3,19 +3,18 @@
 # JMA: a General Algorithm to Craft Nearly Optimal Targeted Adversarial Examples
 Most of the approaches proposed so far to craft targeted adversarial examples against Deep Learning classifiers are highly suboptimal and typically rely on increasing the likelihood of the target class, thus implicitly focusing on one-hot encoding settings. In this paper, we propose a more general, theoretically sound, targeted attack that resorts to the minimization of a Jacobian-induced  MAhalanobis distance (JMA) term, taking into account the effort (in the input space) required to move the latent space representation of the input sample in a given direction. The minimization is solved by exploiting the Wolfe duality theorem, reducing the problem to the solution of a Non-Negative Least Square (NNLS) problem. The proposed algorithm provides an optimal solution to a linearized version of the adversarial example problem originally introduced by Szegedy et al. \cite{szegedy2013intriguing}. The experiments we carried out confirm the generality of the proposed attack which is proven to be effective under a wide variety of output encoding schemes. Noticeably, the JMA attack is also effective in a multi-label classification scenario, being capable to induce a targeted modification of up to half the labels in a complex multilabel classification scenario with 20 labels, a capability that is out of reach of all the attacks proposed so far. As a further advantage, the JMA attack usually requires very few iterations, thus resulting more efficient than existing methods.
 
-This is the implementation of the paper #todo{update later}:
+This is the implementation of the paper:
 ~~~
-@misc{https://doi.org/10.48550/arxiv.2208.10973,
-  doi = {10.48550/ARXIV.2208.10973},
-  url = {https://arxiv.org/abs/2208.10973},
-  author = {Tondi, Benedetta and Guo, Wei and Barni, Mauro},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {JMA: a General Algorithm to Craft Nearly Optimal Targeted Adversarial Examples},
-  publisher = {arXiv},
-  year = {2024},
+@misc{tondi2024jma,
+      title={JMA: a General Algorithm to Craft Nearly Optimal Targeted Adversarial Example}, 
+      author={Benedetta Tondi and Wei Guo and Mauro Barni},
+      year={2024},
+      eprint={2401.01199},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ~~~
-Download PDF from [ArXiv](https://arxiv.org/abs/2208.10973). #todo{update later}
+Download PDF from [ArXiv](https://arxiv.org/abs/2401.01199).
 
 ## Installation
 
